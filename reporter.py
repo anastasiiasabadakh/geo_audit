@@ -1,7 +1,6 @@
 import csv
 import os
 
-
 def write_csv(results: list[dict], output_path: str) -> None:
 # Ensure output directory exists
     os.makedirs(os.path.dirname(output_path), exist_ok=True)

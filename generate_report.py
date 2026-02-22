@@ -1,6 +1,5 @@
 import pandas as pd
 import os
-import html
 
 #Load analysis data
 df = pd.read_csv("output/report.csv", encoding="utf-8-sig")
@@ -99,4 +98,3 @@ with open("output/report.html", "w", encoding="utf-8", newline="\n") as f:
     f.write(html_content)
 print("HTML report bol úspešne vygenerovaný.")
 print(html_content[:500])
-

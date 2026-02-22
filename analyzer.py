@@ -159,6 +159,3 @@ class ArticleAnalyzer:
             "meta_ok": meta_ok,
             "recommendations": "; ".join(recommendations),
         }
-
-
-
